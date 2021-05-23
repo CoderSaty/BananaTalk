@@ -5,11 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Banana Talk</title>
 </head>
 
 <body>
+    <header>
+        <h1 class="heading">Banana Talk</h1>
+    </header>
+    <main>
+        <!-- <section class="input"> -->
+        <textarea id="userMessage" class="input-box" placeholder="Enter your Messsage here"></textarea>
+        <!-- </section> -->
+        <section class="process"> <button id="transalateButton">Translate</button>
+        </section>
+        <section class="output">
+            <!-- <h3 class="output-info"></h3> -->
+            <div class="content">
+                <p id="translatedMessage" class="output">Translated Text will come Here 👇
+                </p>
+            </div>
 
+        </section>
+    </main>
+    <footer>
+        <h1>About this project</h1>
+        <p>Banana Talk is a simple app developed using Vanilla JS to convert a message in english into gibberish
+            language. This language is used by minions. </p>
+        <img src="img.png" alt="" class="image">
+    </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+--primary:#000;
+--secondary:#fff;
+--button: #fc2d31;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+    /* overflow-x:hidden; */
+}
+main{
+    margin:1rem auto;
+    max-width:600px;
+}
+/* header{
+    width: 100%;
+    padding:0;
+    margin:0;
+} */
+header h1{
+background-color:var(--primary);
+color:#fff;
+margin:0;
+padding:2rem;
+text-align:center;
+font-family:'Pattaya',sans-serif;
+
+}
+#transalateButton
+{
+    background-color:var(--button);
+    border:none;
+    padding:1rem 3rem;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5rem;
+    color:var(--secondary);
+    margin-top: 2rem;
+}
+#translatedMessage{
+    color:var(--button);
+    font-size:1.5rem;
+}
+textarea{
+    border:none;
+    outline:none;
+    border-bottom:2px solid var(--button);
+    /* width: 100vw; */
+    width:100%;
+    min-height: 30vh;
+}
+textarea::placeholder{
+    color:var(--button);
+    font-size:1.5rem;
+}
+textarea[input]{
+    color:red;
+}
+.output-info{
+    color:var(--button);
+    font-size:2rem;
+}
+.content{
+    border-bottom:1px solid var(--button);
+    min-height: 30vh;
+}
+footer{
+    margin-bottom:0;
+    /* background-color:var(--primary); */
+    color:var(--button);
+    text-align:center;
+    width:100%;
+}
+footer p{
+    max-width:600px;
+    margin:auto;
+    padding-bottom:1rem;
+}
+footer h1{
+font-family:'Pattaya',sans-serif;
+} 
+ .image{
+    width:50%;
+} 
+@media only screen and (max-width: 600px)
+{
+    .image{
+        width:100%;
+    }   
+}
