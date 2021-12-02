@@ -94,7 +94,7 @@ In case of any problem/ query, feel free to do pull requests or contact the auth
 # Author Info
 
 - Twitter - [@codersaty](https://twitter.com/codersaty)
-- Website - [Anuranjan Srivastava](http://codersaty.me)
+- Website - [Anuranjan Srivastava](https://codersaty.github.io/Portfolio/)
 - Linkedin - [codersaty](https://www.linkedin.com/in/codersaty)
 
 <br/>
